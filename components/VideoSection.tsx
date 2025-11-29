@@ -1,32 +1,23 @@
 import React, { useState } from 'react';
-import { ArrowDown } from 'lucide-react';
 
 const VideoSection: React.FC = () => {
   // State to handle image loading errors
   const [imgError, setImgError] = useState(false);
 
   // Fallback image from Unsplash if local image fails
-  // Using an abstract image representing "mental unblocking" / neural networks / breakthrough
   const fallbackImage = "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
-
-  const scrollToSolution = () => {
-    const element = document.getElementById('solution');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
     <section id="solution" className="w-full max-w-7xl mx-auto px-4 py-12 md:py-24 flex flex-col lg:flex-row items-center gap-8 lg:gap-20">
       <div className="flex-1 space-y-5 md:space-y-6">
         <h2 className="text-3xl md:text-5xl font-extrabold text-white">
           To nie jest "kolejna książka".<br />
-          To <span className="text-cyan-400">twardy reset</span> Twojego systemu operacyjnego.
+          To <span className="text-cyan-400">kompletny system</span> pracy nad mindsetem.
         </h2>
         <p className="text-gray-400 text-base md:text-lg leading-relaxed">
-          Większość poradników mówi Ci "co" masz robić. Ale Ty to już wiesz. Problemem jest to, że Twoja głowa Ci na to nie pozwala. 
+          Większość poradników mówi "co" robić. Problemem jest często to, że mechanizmy obronne utrudniają wdrożenie tej wiedzy.
           <strong className="text-white block mt-2">
-          "MentalnyOdblok" to zestaw 18 chirurgicznych narzędzi, które wycinają blokady u źródła.
+          "MentalnyOdblok" to zestaw 18 precyzyjnych metod, które adresują przyczyny blokad u źródła.
           </strong>
         </p>
         
@@ -34,8 +25,8 @@ const VideoSection: React.FC = () => {
             <h3 className="text-brand-yellow font-bold text-lg md:text-xl">Co zyskasz?</h3>
             <ul className="space-y-2 text-gray-400 text-sm md:text-base">
                 <li className="flex gap-2"><span className="text-green-500">✓</span> Przestaniesz planować, zaczniesz kończyć projekty.</li>
-                <li className="flex gap-2"><span className="text-green-500">✓</span> Zamienisz lęk przed oceną na paliwo do działania.</li>
-                <li className="flex gap-2"><span className="text-green-500">✓</span> Odzyskasz kontrolę nad swoim czasem i pewnością siebie.</li>
+                <li className="flex gap-2"><span className="text-green-500">✓</span> Zamienisz obawy przed oceną na motywację.</li>
+                <li className="flex gap-2"><span className="text-green-500">✓</span> Zbudujesz pewność siebie opartą na działaniu.</li>
             </ul>
         </div>
       </div>

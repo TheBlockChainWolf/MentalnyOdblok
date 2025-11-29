@@ -9,33 +9,33 @@ const Hero: React.FC = () => {
       <div className="flex-1 space-y-6 md:space-y-8 text-center md:text-left z-10">
         <div className="inline-flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 bg-red-900/20 border border-red-500/30 rounded-full text-red-400 text-xs md:text-sm font-semibold animate-fade-in-up">
             <AlertTriangle size={14} className="md:w-4 md:h-4" />
-            <span>Twój mózg Cię sabotuje. Czas to przerwać.</span>
+            <span>Mechanizmy obronne często blokują działanie.</span>
         </div>
 
-        <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-tight tracking-tight text-white">
-          Jesteś zmęczony<br />
-          oglądaniem sukcesów<br />
-          <span className="text-brand-yellow">LUDZI SŁABSZYCH OD CIEBIE?</span>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight text-white">
+          Oglądanie sukcesów innych<br />
+          bywa frustrujące, gdy<br />
+          <span className="text-brand-yellow">WIESZ, ŻE STAĆ CIĘ NA WIĘCEJ</span>
         </h1>
         
         <p className="text-gray-400 text-base md:text-xl max-w-xl mx-auto md:mx-0 leading-relaxed border-l-4 border-gray-800 pl-4 md:pl-6 italic">
-          "Wiem co robić, ale tego nie robię". To nie lenistwo. To <span className="text-white font-bold">biologiczny mechanizm obronny</span>, który trzyma Cię w strefie komfortu, podczas gdy Twoje życie przecieka Ci przez palce.
+          Wiedza "co robić" często nie wystarcza, by zacząć. To nie kwestia lenistwa, ale <span className="text-white font-bold">naturalnych blokad mentalnych</span>, które utrzymują strefę komfortu, hamując rozwój potencjału.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center gap-4 pt-2 md:pt-4">
             <a href={CHECKOUT_URL} className="w-full sm:w-auto group inline-flex items-center justify-center gap-2 bg-brand-yellow hover:bg-yellow-400 text-black font-extrabold py-3.5 px-6 md:py-4 md:px-8 rounded-lg text-lg transition-transform transform hover:scale-105 shadow-[0_0_20px_rgba(251,191,36,0.3)] active:scale-95">
-            <span>Przestań się blokować (37 zł)</span>
+            <span>Odblokuj swój potencjał (37 zł)</span>
             <ArrowRight className="group-hover:translate-x-1 transition-transform" />
             </a>
             <span className="text-xs md:text-sm text-gray-500">
-                *Cena wraca do 197 zł za <span className="text-red-500 font-bold">kilka godzin</span>
+                *Oferta limitowana czasowo
             </span>
         </div>
 
         <div className="flex items-center justify-center md:justify-start gap-6 text-xs text-gray-500 mt-2">
             <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                127 osób kupiło w ostatnich 24h
+                Dołącz do setek zadowolonych osób
             </div>
         </div>
       </div>

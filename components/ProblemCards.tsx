@@ -5,15 +5,15 @@ import { ProblemCardData } from '../types';
 const cardData: ProblemCardData[] = [
   {
     icon: Search,
-    text: "Masz otwarte 15 kart w przeglądarce i nazywasz to 'researchem', żeby nie musieć podjąć decyzji?"
+    text: "Częste zjawisko: 15 otwartych kart w przeglądarce i 'research', który zastępuje podjęcie decyzji."
   },
   {
     icon: Edit3,
-    text: "Poprawiasz ten sam projekt po raz dziesiąty, bo panicznie boisz się, że ktoś go skrytykuje?"
+    text: "Wieczne poprawianie projektu i zwlekanie z publikacją w obawie przed krytyką otoczenia."
   },
   {
     icon: MousePointerClick,
-    text: "Oglądasz kolejny kurs, czując, że wciąż 'nie jesteś gotowy', podczas gdy amatorzy zarabiają Twoje pieniądze?"
+    text: "Kolejny kurs kupiony 'na zaś', podczas gdy inni już działają i osiągają wyniki na rynku."
   }
 ];
 
@@ -22,7 +22,7 @@ const ProblemCards: React.FC = () => {
     <section className="w-full max-w-7xl mx-auto px-4 py-8 md:py-12">
       <div className="text-center mb-8 md:mb-10">
         <h2 className="text-xl md:text-3xl font-bold text-gray-200">
-            Czy któryś z tych scenariuszy <span className="text-red-500">brzmi znajomo?</span>
+            Czy te wyzwania <span className="text-red-500">brzmią znajomo?</span>
         </h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
