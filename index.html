@@ -53,9 +53,6 @@
     fbq('init', '4244040522487314');
     fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=4244040522487314&ev=PageView&noscript=1"
-    /></noscript>
     <!-- End Meta Pixel Code -->
 
   <script type="importmap">
@@ -71,7 +68,13 @@
 <link rel="stylesheet" href="/index.css">
 </head>
   <body>
+    <!-- Meta Pixel NoScript moved to body for Vite compatibility -->
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=4244040522487314&ev=PageView&noscript=1"
+    /></noscript>
+
     <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
   <script type="module" src="/index.tsx"></script>
 </body>
 </html>
