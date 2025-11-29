@@ -8,7 +8,7 @@ const PAYMENT_URL = "https://www.naffy.io/mentalnystart/mentalny-odblok-5NI"
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen bg-background flex items-center overflow-hidden">
+    <section className="relative min-h-screen bg-background flex items-center overflow-hidden pt-16 sm:pt-20">
       <div className="absolute inset-0 opacity-5 sm:opacity-10">
         <div className="absolute top-20 sm:top-32 right-0 sm:right-10 w-64 h-64 sm:w-96 sm:h-96 bg-cyan-400 rounded-full blur-3xl"></div>
       </div>
@@ -30,10 +30,10 @@ export default function HeroSection() {
               <Button
                 onClick={() => window.open(PAYMENT_URL, "_blank")}
                 size="lg"
-                className="w-full sm:w-auto bg-amber-400 hover:bg-amber-300 text-black rounded-lg font-semibold px-6 sm:px-8 py-5 sm:py-6 text-base sm:text-lg h-auto shadow-lg hover:shadow-amber-400/50 transition-all duration-200"
+                className="w-full sm:w-auto bg-amber-400 hover:bg-amber-300 text-black rounded-lg font-semibold px-6 sm:px-8 py-5 sm:py-6 text-base sm:text-lg h-auto shadow-lg hover:shadow-amber-400/50 transition-all duration-200 pulse-button"
               >
                 Chcę ODBLOKOWAĆ swój potencjał za 37 zł
-                <ArrowRight className="w-5 h-5 ml-2" />
+                
               </Button>
             </div>
 
