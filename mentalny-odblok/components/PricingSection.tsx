@@ -99,7 +99,6 @@ const PricingSection: React.FC = () => {
                             <span className="text-5xl md:text-6xl font-black text-white tracking-tight">37</span>
                             <div className="flex flex-col items-start">
                                 <span className="text-xl md:text-2xl font-bold text-white">zł</span>
-                                <span className="text-xl md:text-2xl font-bold text-white">zł</span>
                                 <span className="text-[10px] md:text-xs text-gray-500 uppercase">brutto</span>
                             </div>
                         </div>
